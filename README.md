@@ -164,12 +164,6 @@ While developing QuizMaster, I practiced:
 
 ---
 
-👩‍💻 Developer
-
-Katyayni Yadav
-
-Computer Science Student | Python | Web Development | AI/ML Learner
-
 I'm currently learning programming, web development, data science and AI/ML while building practical projects to strengthen my development skills.
 
 Thank you for checking out QuizMaster! 
