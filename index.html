@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizMaster | Interactive Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen">
+            <div class="logo">Quiz<span>Master</span></div>
+
+            <h1>Test Your Knowledge</h1>
+
+            <p>
+                Challenge yourself with interesting questions
+                and see how much you know.
+            </p>
+
+            <button id="start-btn">Start Quiz</button>
+        </div>
+
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen hidden">
+
+            <div class="quiz-header">
+                <span id="question-number">Question 1/10</span>
+
+                <div class="timer">
+                    ⏱️ <span id="timer">15</span>
+                </div>
+            </div>
+
+            <div class="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+
+            <h2 id="question">Question goes here?</h2>
+
+            <div id="options" class="options"></div>
+
+            <button id="next-btn" disabled>Next Question</button>
+
+        </div>
+
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen hidden">
+
+            <div class="result-icon">🏆</div>
+
+            <h1>Quiz Completed!</h1>
+
+            <p>Your final score is</p>
+
+            <div id="score">0/10</div>
+
+            <p id="result-message"></p>
+
+            <button id="restart-btn">Play Again</button>
+
+        </div>
+
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
